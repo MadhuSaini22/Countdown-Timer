@@ -4,7 +4,7 @@ function showTimer()
     timer_div=document.getElementById("timer_div");
     applyCSS(timer_div);
     timer_div.innerHTML=time;
-    //Main code for timer and repetitively call in 1sec
+    //Main code for timer and repetitively call in 1sec or you can change it 
     my_timer=setInterval(function()
         {
             var hr=0; var min=0; var sec=0;
